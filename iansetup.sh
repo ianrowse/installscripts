@@ -6,6 +6,8 @@ sleep 2
 ###########################################################
 sudo pacman -R gimp
 sudo pacman -R inkscape
+sudo pacman -R firedragon
+sudo pacman -R alacritty
 ###########################################################
 # Linux Package Manager Repo
 ###########################################################
@@ -31,6 +33,7 @@ echo "Now lets install all my software"
 ############################################################
 sudo pacman -S git --noconfirm --needed
 sudo pacman -S brave --noconfirm --needed
+sudo pacman -S btop --noconfirm --needed
 sudo pacman -S firefox --noconfirm --needed
 sudo pacman -S sublime-text --noconfirm --needed
 sudo pacman -S vlc --noconfirm --needed
