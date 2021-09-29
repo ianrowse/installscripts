@@ -64,7 +64,7 @@ sudo pacman -S --noconfirm --needed arc-darkest-theme-git
 sudo pacman -S arcolinux-meta-fun --noconfirm --needed
 
 echo "#####################################################"
-echo "####### UPDATE SYSTM AGAIN ##############"
+echo "####### UPDATE SYSTEM AGAIN ##############"
 echo "#####################################################"
 sudo pacman -Syyy 
 sudo pacman -Syyu --noconfirm --needed
