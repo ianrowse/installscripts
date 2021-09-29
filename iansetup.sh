@@ -59,3 +59,17 @@ sudo pacman -S --noconfirm --needed arc-darkest-theme-git
 # NOT SURE ABOUT KEEPING
 ############################################################
 sudo pacman -S arcolinux-meta-fun --noconfirm --needed
+
+echo "#####################################################"
+echo "####### UPDATE SYSTM AGAIN ##############"
+echo "#####################################################"
+sudo pacman -Syyy 
+sudo pacman -Syyu --noconfirm --needed
+sleep 1
+echo "#####################################################"
+echo "####### REMOVE OLD PACKAGES #############"
+echo "#####################################################"
+sudo pacman -Sc --noconfirm --needed
+sleep 2
+clear 
+exit
