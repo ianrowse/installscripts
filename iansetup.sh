@@ -43,8 +43,6 @@ sudo pacman -S bleachbit --noconfirm --needed
 sudo pacman -S timeshift --noconfirm --needed
 sudo pacman -S steam --noconfirm --needed
 sudo pacman -S virtualbox --noconfirm --needed
-sudo pacman -S docker --noconfirm --needed
-
 
 ###########################################################
 # Install Fonts & Themes
