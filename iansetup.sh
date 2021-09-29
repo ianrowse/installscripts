@@ -46,6 +46,7 @@ sudo pacman -S qbittorrent --noconfirm --needed
 sudo pacman -S putty --noconfirm --needed
 sudo pacman -S okular --noconfirm --needed
 sudo pacman -S fish --noconfirm --needed
+sudo pacman -S gwenview --noconfirm --needed
 
 echo "###################################################"
 echo "######## Install Keepassx ############"
