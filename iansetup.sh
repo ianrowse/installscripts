@@ -21,16 +21,15 @@ echo "First lets update all the packages"
 sleep 2
 sudo pacman -Syyy 
 sudo pacman -Syyu --noconfirm --needed
-############################################################
-# install AUR for arch packages #
-############################################################
+echo "#####################################################"
+echo "######## install AUR for arch packages #########"
+echo "#####################################################"
 sudo pacman -S yay --noconfirm
 sudo pacman -Syu artix-archlinux-support
 
-echo "Now lets install all my software"
-############################################################
-# Software Packages #
-############################################################
+echo "####################################################"
+echo "######### Software Packages ##########"
+echo "####################################################"
 sudo pacman -S git --noconfirm --needed
 sudo pacman -S brave --noconfirm --needed
 sudo pacman -S btop --noconfirm --needed
@@ -43,6 +42,8 @@ sudo pacman -S bleachbit --noconfirm --needed
 sudo pacman -S timeshift --noconfirm --needed
 sudo pacman -S steam --noconfirm --needed
 sudo pacman -S virtualbox --noconfirm --needed
+sudo pacman -S qbittorrent --noconfirm --needed
+sudo pacman -S putty --noconfirm --needed
 
 echo "###################################################"
 echo "######## Install Keepassx ############"
