@@ -44,6 +44,7 @@ sudo pacman -S steam --noconfirm --needed
 sudo pacman -S virtualbox --noconfirm --needed
 sudo pacman -S qbittorrent --noconfirm --needed
 sudo pacman -S putty --noconfirm --needed
+sudo pacman -S okular --noconfirm --needed
 
 echo "###################################################"
 echo "######## Install Keepassx ############"
