@@ -48,6 +48,7 @@ sudo pacman -S virtualbox --noconfirm --needed
 # Install Fonts & Themes
 ###########################################################
 git clone https://github.com/erikdubois/arcolinux-nemesis
+git clone https://aur.archlinux.org/keepassx.git
 sudo pacman -S --noconfirm --needed arcolinux-candy-beauty-git
 sudo pacman -S --noconfirm --needed ayu-theme
 sudo pacman -S --noconfirm --needed arc-darkest-theme-git
