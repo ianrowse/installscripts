@@ -47,7 +47,7 @@ sudo pacman -S putty --noconfirm --needed
 sudo pacman -S okular --noconfirm --needed
 sudo pacman -S fish --noconfirm --needed
 sudo pacman -S gwenview --noconfirm --needed
-Sudo pacman -S veracrypt --moconfirm --needed
+Sudo pacman -S veracrypt --noconfirm --needed
 
 echo "###################################################"
 echo "######## Install Keepassx ############"
