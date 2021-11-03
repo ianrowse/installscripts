@@ -15,7 +15,7 @@ sudo pacman -R alacritty
 
 
 ###########################################################
-echo "This is my new install script"
+echo "This is my new install script and what fun"
 sleep 2
 echo "First lets update all the packages"
 sleep 2
